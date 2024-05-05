@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+    background: rgb(234, 244, 248);
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+.myPic1 {
+    animation: animate 4s linear infinite alternate-reverse;
+}
+
+@keyframes animate {
+    from {
+        transform: translate(0px, -20px);
+    }
+}
+
+.about {
+    text-shadow: 5px 5px 10px rgba(128, 128, 128, 0.742);
+}
